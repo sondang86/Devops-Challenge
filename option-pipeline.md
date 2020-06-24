@@ -13,6 +13,7 @@
 - Create a GitHub Actions Workflow to
   - Test and Package the `PlayStudios.MyService` application
   - Build a Docker image for running the application
+    - Build a Linux image (not Windows)
     - The image does not need to be pushed to a registry
 - This is not an exercise on your .Net knowledge, use the following commands to prepare the application
   - Unit tests are run with
