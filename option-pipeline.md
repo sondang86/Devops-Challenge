@@ -12,9 +12,10 @@
 
 - Create a GitHub Actions Workflow to
   - Test and Package the `PlayStudios.MyService` application
-  - Build a Docker image for running the application
+  - Build a Docker image for running the application (asp.net core 3.1)
     - Build a Linux image (not Windows)
     - The image does not need to be pushed to a registry
+    - A list of .net core docker images can be found in [Docker Hub](https://hub.docker.com/_/microsoft-dotnet-core)
 - This is not an exercise on your .Net knowledge, use the following commands to prepare the application
   - Unit tests are run with
     ```Bash
@@ -46,3 +47,4 @@
 - https://docs.docker.com/engine/reference/builder/
 - https://help.github.com/en/actions/reference/workflow-syntax-for-github-actions
 - https://help.github.com/en/actions/reference/context-and-expression-syntax-for-github-actions
+- https://hub.docker.com/_/microsoft-dotnet-core
