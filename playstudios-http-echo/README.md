@@ -1,6 +1,8 @@
 ##Description
 This helm chart deploys the [`http-echo`] docker image in local kubernetes using Helm 3/Kind/Docker Desktop Windows.
 
+My changes are in 2 files "values.yaml", "templates\deployment.yaml"
+
 ##Completed the basic setup guidance
 
 ##Installing the Chart (Powershell)
